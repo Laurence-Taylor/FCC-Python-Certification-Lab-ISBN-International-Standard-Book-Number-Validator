@@ -39,14 +39,15 @@ Objective: Fulfill the user stories below and get all the tests to pass to compl
 Important: you will need to comment out the main() call in the global space for the tests to run properly.
 
 When you complete the project, the user should see the following messages depending on the values they enter.
+
     ISBN Code 	    Length 	    Message 	            Example input
     Valid 	        Valid 	    Valid ISBN Code. 	    1530051126,10
     Invalid Number 	Valid 	    Invalid ISBN Code. 	    1530051125,10
     Does not match specified length or left blank 	Valid 	ISBN-10 code should be 10 digits long. or ISBN-13 code should be 13 digits long., depending on the length they entered. 	9781530051120,10 or 1530051126,13
-Contains non-numeric characters (except for the check digit) 	Valid 	Invalid character was found. 	15-0051126,10
-Any 	Invalid Number 	Length should be 10 or 13. 	1530051126,9
-Any 	Contains non-numeric characters or left blank 	Length must be a number. 	1530051125,A
-Not comma-separated 	Not comma-separated 	Enter comma-separated values. 	1530051125
+    Contains non-numeric characters (except for the check digit) 	Valid 	Invalid character was found. 	15-0051126,10
+    Any 	Invalid Number 	Length should be 10 or 13. 	1530051126,9
+    Any 	Contains non-numeric characters or left blank 	Length must be a number. 	1530051125,A
+    Not comma-separated 	Not comma-separated 	Enter comma-separated values. 	1530051125
 
 You can use the following values to test your code manually if you would like.
 
