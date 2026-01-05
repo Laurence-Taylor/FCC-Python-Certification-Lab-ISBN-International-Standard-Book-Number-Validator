@@ -40,17 +40,18 @@ Important: you will need to comment out the main() call in the global space for 
 
 When you complete the project, the user should see the following messages depending on the values they enter.
 
-    ISBN Code 	                        Length 	            Message 	                                    Example input
-    Valid 	                            Valid 	            Valid ISBN Code. 	                            1530051126,10
-    Invalid Number 	                    Valid 	            Invalid ISBN Code. 	                            1530051125,10
-    Does not match specified                                ISBN-10 code should be 10 digits long. or
-    length or left blank 	            Valid 	            ISBN-13 code should be 13 digits long.,  	    9781530051120,10 or 
-                                                            depending on the length they entered.           1530051126,13 
-    Contains non-numeric characters  	Valid 	            Invalid character was found. 	                15-0051126,10
+    ISBN Code 	                        Length 	                Message 	                                    Example input
+    Valid 	                            Valid 	                Valid ISBN Code. 	                            1530051126,10
+    Invalid Number 	                    Valid 	                Invalid ISBN Code. 	                            1530051125,10
+    Does not match specified                                    ISBN-10 code should be 10 digits long. or       9781530051120,10 or
+    length or left blank 	            Valid 	                ISBN-13 code should be 13 digits long.,  	    1530051126,13
+                                                                depending on the length they entered.            
+    Contains non-numeric characters  	Valid 	                Invalid character was found. 	                15-0051126,10
     (except for the check digit)
-    Any 	                            Invalid Number 	Length should be 10 or 13. 	                    1530051126,9
-    Any 	                            Contains non-numeric characters or left blank 	Length must be a number. 	1530051125,A
-    Not comma-separated 	Not comma-separated 	Enter comma-separated values. 	1530051125
+    Any 	                            Invalid Number 	        Length should be 10 or 13. 	                    1530051126,9
+    Any 	                            Contains non-numeric  	Length must be a number. 	                    1530051125,A
+                                        characters or left blank
+    Not comma-separated 	            Not comma-separated 	Enter comma-separated values. 	                1530051125
 
 You can use the following values to test your code manually if you would like.
 
